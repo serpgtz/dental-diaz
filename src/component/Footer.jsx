@@ -13,6 +13,7 @@ function Footer(props) {
                 </div>
                 <div className="col-lg-3">
                     <h1>que puesss</h1>
+                    
                 </div>
                 <div className="col-lg-4">
                     <h1>div numero 3</h1>

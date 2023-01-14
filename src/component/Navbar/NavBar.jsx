@@ -2,18 +2,20 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import logo from "../images/dental-removebg-preview.png"
+import logo from "../../images/dental-removebg-preview.png"
+import s from "./Navbar.module.css"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function NavBar() {
   return (
-    <Navbar bg="light " expand="lg" variant='light '>
+    <Navbar className={s.navbar} bg="light " expand="md" variant='light '>
       <Container   >
-        <Navbar.Brand href="#home"><img src={logo} width="130px"/></Navbar.Brand>
+        <Navbar.Brand className={s.brand} href="#home"><img src={logo} width="130px" alt='Logo de la pagina web'/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto mx-auto ">
+        <Navbar.Collapse className={s.navbar_collapse} id="basic-navbar-nav">
+          <Nav className={s.navbar_nav }>  
+          {/* me-auto mx-auto */}
             <Nav.Link href="#home">Servicios</Nav.Link>
             <Nav.Link href="#link">Quienes Somos</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">

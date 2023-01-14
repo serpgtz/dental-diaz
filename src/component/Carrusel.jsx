@@ -8,11 +8,11 @@ import s from "./Carrusel.module.css"
 
 function Carrusel() {
   return (
-    <Container className={s.Carrusel}>
+    <Container fluid className={s.Carrusel}>
     <Carousel variant="dark">
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block w-100 img-fluid"
           src={foto1}
           alt="First slide"
          
@@ -24,7 +24,7 @@ function Carrusel() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="img-fluid d-block w-100"
           src={foto2}
           alt="Second slide"
          
@@ -37,7 +37,7 @@ function Carrusel() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className=" img-fluid d-block w-100"
           src={foto3}
           alt="Third slide"
           

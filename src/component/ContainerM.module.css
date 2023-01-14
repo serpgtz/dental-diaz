@@ -7,8 +7,8 @@ body {
     background-image: url("../images/AdobeStock_251530589.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
-    width: 87vw;
-    height: 80vh;
+    width: 100vw;
+    height: 90vh;
     color: rgb(119, 167, 218);
     text-align: center;
     text-align: justify;
@@ -19,9 +19,35 @@ body {
 .container h1{
     font-size: 2.5em;
     margin-left: 30px;
+    font-family: 'Rubik', sans-serif;
     
 }
 .container h5{
-    font-size: 1em;
+    font-size: 1.5em;
     max-width: auto;
+    font-family: 'Rubik', sans-serif;
+}
+.protegemos {
+    display: flex;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+   
+}
+@media screen and (max-width:767px) {
+    .protegemos{
+        margin-bottom: 50px;
+        text-align: justify;
+        padding: 5px;
+        
+    }
+    .container {
+        height: 40vh;
+    }
+    .container h1 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .container h5{
+        font-size: 1em;
+    }
 }

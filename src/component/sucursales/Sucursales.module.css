@@ -1,9 +1,11 @@
 .container, h2,h4{
    color: rgb(119, 167, 218);
+   font-family: 'Rubik', sans-serif;
 }
 .container, h2{
  
    text-align: center;
+   font-size: 2.5em;
 
    
 }

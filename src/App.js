@@ -1,6 +1,6 @@
 
 import './App.css';
-import NavBar, { Prueba } from './component/NavBar';
+import NavBar from './component/Navbar/NavBar.jsx';
 import Carrusel from "./component/Carrusel"
 import ContainerM from './component/ContainerM';
 import Sucursal from './component/sucursales/Sucursales';
