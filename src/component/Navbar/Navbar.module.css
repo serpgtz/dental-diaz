@@ -1,16 +1,27 @@
 .navbar {
     padding: 2rem;
     /* background-color: #f5f6f7; */
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+  
+    
+    
 }
 .navbar_nav {
     flex: auto;
     align-items: flex-end;
     justify-content: space-evenly;
+    
 
 }
 /* adaptable (resposivo) */
 @media screen and (max-width: 767px){
     .brand {
         display: none;
+    }
+    .navbar {
+        padding: 1rem;
+        
     }
 }
