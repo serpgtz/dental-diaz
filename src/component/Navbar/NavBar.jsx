@@ -16,7 +16,7 @@ function NavBar() {
         <Navbar.Collapse className={s.navbar_collapse} id="basic-navbar-nav">
           <Nav className={s.navbar_nav }>  
           {/* me-auto mx-auto */}
-            <Nav.Link href="#home">Contactanos</Nav.Link>
+            <Nav.Link href="/contacto">Contactanos</Nav.Link>
             <Nav.Link href="#link">Quienes Somos</Nav.Link>
             <NavDropdown title="Servicios" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>

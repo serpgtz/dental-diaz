@@ -13,7 +13,7 @@ function Ubicacion({handleClose,show}) {
         <Modal.Header closeButton>
           <Modal.Title>Modal heading</Modal.Title>
         </Modal.Header>
-        <Modal.Body><img src={indepe} width="700px"/></Modal.Body>
+        <Modal.Body><div className={s.map} id="map"></div></Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close

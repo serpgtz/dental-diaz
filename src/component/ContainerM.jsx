@@ -18,7 +18,7 @@ function ContainerM(){
                 <div className={s.protegemos}>
                   <div className="col-sx-10 col-sm-10 col-md-6 mx-4 mt-4  ">
                     <h5 className="my-4 ">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis sapiente eaque maiores ipsum voluptatibus eos ipsam ab, repudiandae assumenda accusamus ad reprehenderit! Blanditiis maxime recusandae aliquam ullam nisi nam dolor!
+                    En dental Diaz es muy importante la salud bucal de la Familia y por eso contamos con Profecionales de la salud Bucal, que estan especializados en satisfacer las necesidades de salud bucal de todos los miembros de tu familia.
                     </h5>
                  </div>
                 </div>
