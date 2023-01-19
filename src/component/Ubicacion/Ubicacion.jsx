@@ -2,6 +2,7 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import indepe from "../../images/dentalindepe.jpg"
+import Maps from '../Maps';
 import s from "./Ubicacion.module.css"
 
 
@@ -11,9 +12,9 @@ function Ubicacion({handleClose,show}) {
             
       <Modal size='lg' show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title>Ubicacion</Modal.Title>
         </Modal.Header>
-        <Modal.Body><div className={s.map} id="map"></div></Modal.Body>
+        <Modal.Body><Maps/></Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close
