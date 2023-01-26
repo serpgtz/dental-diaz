@@ -1,11 +1,13 @@
 .container {
-    background-image: url("../../images/consultoriointerior2.jpg");
+    background-image: url("../../images/AdobeStock_392563599.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
-    /* text-align: center;
-     */
+   
+   
+    /* /* text-align: center; 
+     
 
     
 }
@@ -18,13 +20,14 @@
 }
 .contenedor {
     background-color: #fff;
-    width: 80vw;
+    width: 50vw;
     height: 90vh;
     opacity: .5;
-    margin-left: 10%;
-    margin-right: 30%; 
-    padding-top: 5px; 
+    margin-left: 43%;
+    margin-right: 20%; 
+    padding-top: 20px; 
     margin-bottom: 0;
+    
    
    
   
@@ -32,10 +35,13 @@
 
     /* border: black 2px solid; */
 }
-
 .contenedor h3{
     color: rgb(12, 71, 134);
      font-size: 30px;
+}
+.contenedor span{
+   
+    font-weight: 700;
 }
 .li li{
     list-style: none;

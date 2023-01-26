@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from './Navbar/NavBar';
-import Carrusel from './Carrusel';
+import Carrusel from '../component/Carrusel/Carrusel';
 import ContainerM from './ContainerM';
 import Sucursal from './sucursales/Sucursales';
 import Footer from './Footer';

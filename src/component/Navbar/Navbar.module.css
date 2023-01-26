@@ -4,9 +4,15 @@
     position: fixed;
     z-index: 1;
     width: 100%;
+
   
     
     
+}
+.item:hover{
+background-color: #5daaee;
+  color:#fff;
+  transition: ease-in .4s;
 }
 .navbar_nav {
     flex: auto;

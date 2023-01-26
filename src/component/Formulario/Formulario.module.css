@@ -1,0 +1,21 @@
+
+.warning{
+
+    color: rgb(134, 65, 65);
+}
+.contenedor input {
+    
+  
+    width: 100%;
+    /* padding: 0; */
+    /* margin: 0; */
+    /* text-align: center; */
+}
+.contenedor textarea{
+    width: 100%;
+    
+}
+.contenedor {
+    color: #fff;
+    font-weight: 600;
+}

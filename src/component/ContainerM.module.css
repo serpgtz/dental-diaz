@@ -8,7 +8,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     color: rgb(119, 167, 218);
     text-align: center;
     text-align: justify;
@@ -32,7 +32,7 @@ body {
 }
 .protegemos {
     display: flex;
-    text-align: center;
+    text-align: justify;
     font-family: 'Rubik', sans-serif;
    
 }

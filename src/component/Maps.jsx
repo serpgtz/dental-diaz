@@ -1,5 +1,6 @@
 import React, { useMemo } from 'react'
-import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api';
+import { GoogleMap, useLoadScript, Marker,LoadScript } from '@react-google-maps/api';
+
 
 export default function Maps(){
   const { isLoaded} = useLoadScript({
@@ -12,8 +13,8 @@ export default function Maps(){
 }
 
 const containerStyle = {
-    width: '100vw',
-    height: '100vh'
+    width: '600px',
+    height: '600px'
   };
   
 
