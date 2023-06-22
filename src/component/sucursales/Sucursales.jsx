@@ -1,7 +1,7 @@
 import React from "react";
 import BasicExample from "./card";
 import consul1 from "../../images/WhatsApp Image 2023-01-12 at 10.32.55 PM (1).jpeg"
-import consul2 from "../../images/consul2.jpg"
+import consul2 from "../../images/juventud.jpeg"
 import s from "./Sucursales.module.css"
 
 
@@ -21,7 +21,7 @@ export default function Sucursal(){
                     </h4>
                     
                 </div>
-                <div className="col-sm-12 col-md-4 ">
+                <div className="col-sm-12 col-md-4  ">
                     <BasicExample 
                     consultorio={consul1}
                     sucursal={"Independencia"}
